@@ -39,3 +39,6 @@ didericis:callpromise-mixin
 # Schema, Form
 aldeed:autoform
 ddp-rate-limiter
+reactive-dict
+zimme:active-route
+less

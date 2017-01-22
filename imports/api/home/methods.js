@@ -1,3 +1,4 @@
+import {Meteor} from 'meteor/meteor';
 import Sequelize from 'sequelize';
 import sql from  'mssql';
 
