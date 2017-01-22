@@ -1,0 +1,29 @@
+<head>
+    <title>testing</title>
+</head>
+
+<body>
+<h1>Welcome to Ms SQL!</h1>
+
+{{> hello}}
+</body>
+
+<template name="hello">
+    <button class="js-get-data-sequelize">Get Sequelize Data</button>
+    <br>
+    <ul>
+        {{#each sequelizeData}}
+            <li>ID: {{id}} | Name: {{name}} | Role: {{role}} <a href="#" class="js-sequelize-destroy">X</a></li>
+        {{/each}}
+    </ul>
+
+    <hr>
+
+    <button class="js-mssql-data">Get Mssql Data</button>
+    <br>
+    <ul>
+        {{#each mssqlData}}
+            <li>ID: {{id}} | Name: {{name}} | Role: {{role}} <a href="#" class="js-sequelize-destroy">X</a></li>
+        {{/each}}
+    </ul>
+</template>
