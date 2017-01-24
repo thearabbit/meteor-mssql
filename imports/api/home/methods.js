@@ -10,22 +10,26 @@ Meteor.methods({
         });
 
         let User = sequelize.define('users', {
-            name: {
-                type: Sequelize.STRING
-            },
-            dob: {
-                type: Sequelize.DATE
-            },
-            role: {
-                type: Sequelize.STRING
-            }
+          firstName: {
+              type: Sequelize.STRING
+          },
+          lastName: {
+              type: Sequelize.STRING
+          },
+          username: {
+              type: Sequelize.STRING
+          },
+          password: {
+              type: Sequelize.DATE
+          },
+          role: {
+              type: Sequelize.STRING
+          }
         });
 
         const all = User.findAll();
 
         return all.map(element => {
-            console.log(element);
-
             return element.toJSON();
         });
     },

@@ -19,7 +19,12 @@ ecmascript@0.6.1              # Enable ECMAScript2015+ syntax in app code
 shell-server@0.2.1            # Server-side component of the `meteor shell` command
 
 #autopublish@1.0.7             # Publish all data to the clients (for prototyping)
-insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+#insecure@1.0.7                # Allow all DB writes from clients (for prototyping)
+
+reactive-dict
+less
+ddp-rate-limiter
+session
 
 # UI
 twbs:bootstrap
@@ -31,6 +36,7 @@ kadira:blaze-layout
 cottz:flow-router-query
 arillo:flow-router-helpers
 ostrio:flow-router-title
+zimme:active-route
 
 # Method
 mdg:validated-method
@@ -38,7 +44,4 @@ didericis:callpromise-mixin
 
 # Schema, Form
 aldeed:autoform
-ddp-rate-limiter
-reactive-dict
-zimme:active-route
-less
+aldeed:simple-schema
