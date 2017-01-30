@@ -4,7 +4,6 @@ import {ReactiveDict} from 'meteor/reactive-dict';
 import {Template} from 'meteor/templating';
 import {ActiveRoute} from 'meteor/zimme:active-route';
 import {FlowRouter} from 'meteor/kadira:flow-router';
-import {_} from 'meteor/underscore';
 import {$} from 'meteor/jquery';
 
 import './home.html';
@@ -40,7 +39,7 @@ Template.App_home.events({
         });
     },
     'click .js-mssql-data'(event, instance) {
-        Meteor.call('getMssqlData', (error, result) => {
+        Meteor.call('getMssqlData', 'admin', (error, result) => {
             if (error) {
                 console.log(error)
             } else {

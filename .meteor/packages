@@ -38,10 +38,9 @@ arillo:flow-router-helpers
 ostrio:flow-router-title
 zimme:active-route
 
-# Method
-mdg:validated-method
-didericis:callpromise-mixin
-
 # Schema, Form
 aldeed:autoform
 aldeed:simple-schema
+themeteorchef:bert
+u2622:persistent-session
+#theara:ladda-bootstrap

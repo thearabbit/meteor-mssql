@@ -1,9 +1,13 @@
 <template name="App_home">
+    <div class="page-header">Home</div>
+
     <button class="js-get-data-sequelize">Get Sequelize Data</button>
     <br>
     <ul>
         {{#each sequelizeData}}
-            <li>ID: {{id}} | Full Name: {{firstName}} {{lastName}} | Username: {{username}} | Role: {{role}} <a href="#" class="js-sequelize-destroy">X</a></li>
+            <li>ID: {{id}} | Full Name: {{firstName}} {{lastName}} | Username: {{username}} | Role: {{role}} <a href="#"
+                                                                                                                class="js-sequelize-destroy">X</a>
+            </li>
         {{/each}}
     </ul>
 
@@ -13,7 +17,9 @@
     <br>
     <ul>
         {{#each mssqlData}}
-        <li>ID: {{id}} | Full Name: {{firstName}} {{lastName}} | Username: {{username}} | Role: {{role}} <a href="#" class="js-sequelize-destroy">X</a></li>
+            <li>ID: {{id}} | Full Name: {{firstName}} {{lastName}} | Username: {{username}} | Role: {{role}} <a href="#"
+                                                                                                                class="js-sequelize-destroy">X</a>
+            </li>
         {{/each}}
     </ul>
 </template>
