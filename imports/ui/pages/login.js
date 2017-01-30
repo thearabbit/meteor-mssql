@@ -33,17 +33,11 @@ Template.App_login.events({});
 
 // Hook
 let hooksObject = {
-    // before: {
-    //     method: function (doc) {
-    //         return doc;
-    //     }
-    // },
+    beginSubmit: function () {
+        $('.js-btn-loading').button('loading');
+    },
     onSubmit: function (insertDoc, updateDoc, currentDoc) {
-        $('.js-login').button('loading');
-
-        // this.event.preventDefault();
-        console.log('onSubmit');
-
+        // Call method
         Meteor.call(
             'loginWithPassword',
             {
@@ -51,8 +45,6 @@ let hooksObject = {
                 password: insertDoc.password,
             },
             (error, result) => {
-                $('.js-login').button('reset');
-
                 if (error) {
                     // Add invalid keys to schema
                     // LoginSchema.namedContext("App_login")
@@ -65,11 +57,13 @@ let hooksObject = {
                 } else {
 
                     this.done(null, result);
-
                 }
             });
 
         return false;
+    },
+    endSubmit: function () {
+        $('.js-btn-loading').button('reset');
     },
     onSuccess(formType, result)
     {

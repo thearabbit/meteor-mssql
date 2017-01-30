@@ -13,6 +13,9 @@ import {displayError, displaySuccess} from '../lib/alert.js';
 
 import './app-body.html';
 
+Template.App_body.onCreated(function () {
+});
+
 Template.App_body.helpers({
     currentUser(){
         return Session.get('currentUser');
@@ -28,5 +31,5 @@ Template.App_body.events({
             FlowRouter.go('App.login');
             displaySuccess('Logout is successful');
         }, 500);
-    }
+    },
 });
