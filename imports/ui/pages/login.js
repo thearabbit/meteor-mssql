@@ -6,8 +6,6 @@ import {Template} from 'meteor/templating';
 import {ActiveRoute} from 'meteor/zimme:active-route';
 import {FlowRouter} from 'meteor/kadira:flow-router';
 import {$} from 'meteor/jquery';
-// import 'meteor/theara:ladda-bootstrap/lib/ladda.js';
-// import 'meteor/theara:ladda-bootstrap';
 
 // Lib
 import {displayError, displaySuccess} from '../lib/alert.js';

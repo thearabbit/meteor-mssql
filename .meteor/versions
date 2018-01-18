@@ -1,3 +1,6 @@
+activeroute:blaze@1.0.0-alpha.1
+activeroute:core@1.0.0-alpha.1
+activeroute:flow-router@1.0.0-alpha.1
 aldeed:autoform@5.8.1
 aldeed:simple-schema@1.5.3
 allow-deny@1.0.5

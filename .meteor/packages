@@ -36,7 +36,7 @@ kadira:blaze-layout
 cottz:flow-router-query
 arillo:flow-router-helpers
 ostrio:flow-router-title
-zimme:active-route
+#zimme:active-route
 
 # Schema, Form
 aldeed:autoform
@@ -45,3 +45,6 @@ themeteorchef:bert
 u2622:persistent-session
 #theara:ladda-bootstrap
 theara:moneyjs
+activeroute:core
+activeroute:blaze
+activeroute:flow-router

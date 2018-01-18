@@ -1,0 +1,17 @@
+<template name="App_user">
+    <div class="page-header">Users</div>
+
+    {{#autoForm schema=userSchema id="App_user" validation="submit"}}
+        {{> afQuickField name="firstName"}}
+        {{> afQuickField name="lastName"}}
+        {{> afQuickField name="username"}}
+        {{> afQuickField name="password"}}
+        {{> afQuickField name="confirmPassword"}}
+        {{> afQuickField name="role"}}
+
+        <button type="submit" data-loading-text="<i class='fa fa-spinner fa-spin'></i> Loading..."
+                class="btn btn-primary btn-block js-btn-loading">
+            <i class="fa fa-sign-in"></i> Submit
+        </button>
+    {{/autoForm}}
+</template>

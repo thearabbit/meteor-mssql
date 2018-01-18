@@ -2,10 +2,6 @@ import {Meteor} from 'meteor/meteor';
 import {SimpleSchema} from 'meteor/aldeed:simple-schema';
 import _ from 'lodash';
 
-if (Meteor.isClient) {
-    require('../../ui/pages/login.js');
-}
-
 export const LoginSchema = new SimpleSchema({
     username: {
         type: String,

@@ -19,6 +19,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/components/afObjectField/afObjectField.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/lookup.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/builtins.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/theara_moneyjs/0.0.2/web.browser/packages/theara_moneyjs.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/backcompat.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/events.js" />
         <item url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/exceptions.js" />
@@ -72,7 +73,12 @@
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-radio-inline/select-radio-inline.js" />
         <item url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.6/web.browser/rate-limit.js" />
         <item url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-checkbox-inline/select-checkbox-inline.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/activeroute_blaze/1.0.0-alpha.1/web.browser/client/helpers.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/activeroute_core/1.0.0-alpha.1/web.browser/lib/error.js" />
         <item url="file://$USER_HOME$/.meteor/packages/themeteorchef_bert/2.1.1/web.browser/templates/bert-alert.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/activeroute_core/1.0.0-alpha.1/web.browser/lib/core.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/activeroute_blaze/1.0.0-alpha.1/web.browser/client/error.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/activeroute_core/1.0.0-alpha.1/web.browser/lib/constants.js" />
         <item url="file://$USER_HOME$/.meteor/packages/themeteorchef_bert/2.1.1/web.browser/bert.js" />
         <item url="file://$USER_HOME$/.meteor/packages/webapp-hashing/1.0.9/web.browser/webapp-hashing.js" />
         <item url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.13/web.browser/spacebars-runtime.js" />
@@ -179,6 +185,7 @@
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/server.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/client.js" />
         <item url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/export_globals.js" />
+        <item url="file://$USER_HOME$/.meteor/packages/activeroute_flow-router/1.0.0-alpha.1/web.browser/client/activeroute-flow-router.js" />
         <item url="file://$USER_HOME$/.meteor/packages/logging/1.1.16/web.browser/logging_cordova.js" />
         <item url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.12.1/web.browser/test/common/fast_render_route.js" />
         <item url="file://$USER_HOME$/.meteor/packages/logging/1.1.16/web.browser/logging.js" />
@@ -289,6 +296,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/templates/bootstrap3-horizontal/components/afObjectField/afObjectField.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/lookup.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/builtins.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/theara_moneyjs/0.0.2/web.browser/packages/theara_moneyjs.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/backcompat.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/events.js" />
       <root url="file://$USER_HOME$/.meteor/packages/blaze/2.3.0/web.browser/exceptions.js" />
@@ -342,7 +350,12 @@
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-radio-inline/select-radio-inline.js" />
       <root url="file://$USER_HOME$/.meteor/packages/rate-limit/1.0.6/web.browser/rate-limit.js" />
       <root url="file://$USER_HOME$/.meteor/packages/aldeed_autoform/5.8.1/web.browser/inputTypes/select-checkbox-inline/select-checkbox-inline.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/activeroute_blaze/1.0.0-alpha.1/web.browser/client/helpers.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/activeroute_core/1.0.0-alpha.1/web.browser/lib/error.js" />
       <root url="file://$USER_HOME$/.meteor/packages/themeteorchef_bert/2.1.1/web.browser/templates/bert-alert.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/activeroute_core/1.0.0-alpha.1/web.browser/lib/core.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/activeroute_blaze/1.0.0-alpha.1/web.browser/client/error.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/activeroute_core/1.0.0-alpha.1/web.browser/lib/constants.js" />
       <root url="file://$USER_HOME$/.meteor/packages/themeteorchef_bert/2.1.1/web.browser/bert.js" />
       <root url="file://$USER_HOME$/.meteor/packages/webapp-hashing/1.0.9/web.browser/webapp-hashing.js" />
       <root url="file://$USER_HOME$/.meteor/packages/spacebars/1.0.13/web.browser/spacebars-runtime.js" />
@@ -449,6 +462,7 @@
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/server.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/client.js" />
       <root url="file://$USER_HOME$/.meteor/packages/es5-shim/4.6.15/web.browser/export_globals.js" />
+      <root url="file://$USER_HOME$/.meteor/packages/activeroute_flow-router/1.0.0-alpha.1/web.browser/client/activeroute-flow-router.js" />
       <root url="file://$USER_HOME$/.meteor/packages/logging/1.1.16/web.browser/logging_cordova.js" />
       <root url="file://$USER_HOME$/.meteor/packages/kadira_flow-router/2.12.1/web.browser/test/common/fast_render_route.js" />
       <root url="file://$USER_HOME$/.meteor/packages/logging/1.1.16/web.browser/logging.js" />
